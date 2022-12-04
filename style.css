@@ -1,0 +1,342 @@
+/* font-family: 'Noto Sans Georgian', sans-serif;
+font-family: 'Work Sans', sans-serif; */
+body {
+    padding: 0;
+    margin: 0;
+}
+h1, h2, h3, h4, h5, h6, p, a {
+    padding: 0;
+    margin: 0;
+    font-family: 'Work Sans', sans-serif;
+}
+a {
+    text-decoration: none;
+}
+.wrapper {
+    background: url(/docs/assets/images/noise_transparent2.png), radial-gradient(100% 215.42% at 0% 0%, #5B483A 0%, #262425 100%) #211F20;
+}
+.header {
+    padding-top: 60px;
+    margin-bottom: 60px;
+}
+.container {
+    width: 1280px;
+    margin: 0 auto;
+}
+.nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo {
+    display: inline-block;
+}
+.logo-title {
+    font-size: 32px;
+    color: #F1CDB3;
+    letter-spacing: 0.06em;
+    margin-bottom: 10px;
+}
+.logo-info {
+    font-size: 13px;
+    color: white;
+    letter-spacing: 0.1em;
+    text-align: center;
+}
+.menu {
+    display: flex;
+    width: 443px;
+    justify-content: space-between;
+}
+.link {
+    font-size: 15px;
+    color: #CDCDCD;
+}
+.l-hover {
+    color: #FAFAFA;
+    border-bottom: 2px solid #F1CDB3;
+}
+.link:hover {
+    color: #FAFAFA;
+    cursor: pointer;
+}
+/* Not only */
+.Not-only-offer-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.Not-only-offer {
+    width: 460px;
+}
+.Not-only-intro {
+    color: white;
+    font-size: 44px;
+    margin-bottom: 42px;
+}
+.Not-only-title {
+    color: #CDCDCD;
+    font-size: 15px;
+    margin-bottom: 42px;
+}
+.btn {
+    font-size: 17px;
+    color: #292929;
+    background-color: #F1CDB3;
+    border: none;
+    border-radius: 100px;
+    padding: 15px 45px;
+}
+.btn:hover {
+    cursor: pointer;
+    background-color: #FDDCC4;
+}
+/* About */
+.About-wrapper {
+    background-color: white;
+    display: flex;
+    justify-content:space-evenly;
+    padding-top: 80px;
+    padding-bottom: 100px;
+    align-items: center;
+}
+.About-offer {
+    width: 430px;
+}
+.About-intro {
+    font-size: 35px;
+    color: #545454;
+}
+.About-title {
+    font-size: 15px;
+    color: #4C4C4C;
+    margin-top: 25px;
+}
+/* Our-friends */
+.Our-friends {
+    background-color: #F6F6F6;
+    padding-top: 80px;
+    padding-bottom: 100px;
+}
+.Our-friends-intro {
+    font-size: 35px;
+    color: #545454;
+    text-align: center;
+}
+.slider {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+.scroll {
+    border: 2px solid #F1CDB3;
+    border-radius: 100px;
+    padding: 24px 24px;
+    background-image: url(/docs/assets/icons/Arrow.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.right {
+    background-image: url(/docs/assets/icons/ArrowLeft.png);
+}
+.scroll:hover {
+    border: 2px solid #FDDCC4;
+    background-color: #FDDCC4;
+    cursor: pointer;
+}
+/* SLIDER */
+.item, .carousel, .card {
+    display: flex;
+}
+.carousel-wrapper {
+    width: 990px;
+    margin: 0 20px;
+    overflow: hidden;
+}
+.carousel {
+    position: relative;
+    left: -990px;
+}
+.hidden {
+    display: none;
+}
+/* SLIDER */
+.item {
+    display: flex;
+    gap: 90px;
+    width: 990px;
+}
+.card {
+    display: inline-block;
+    background-color: #FAFAFA;
+    align-items: center;
+    border-radius: 9px;
+    padding-bottom: 30px;
+}
+.card:hover {
+    background-color: white;
+    cursor: pointer;
+}
+.card:hover .learn-more {
+    background-color: #FDDCC4;
+    border: 2px solid #FDDCC4;
+    cursor: pointer;
+}
+.card-image {
+    border-radius: 9px 9px 0px 0px;
+}
+.pets-name {
+    font-size: 20px;
+    color: #545454;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.learn-more {
+    display: flex;
+    margin: 0 auto;
+    border: 2px solid #F1CDB3;
+    border-radius: 100px;
+    padding: 15px 45px;
+    font-size: 17px;
+    letter-spacing: 0.06em;
+    color: #292929;
+}
+.get {
+    display: flex;
+    margin: 0 auto;
+    font-size: 17px;
+    color: #292929;
+    letter-spacing: 0.06em;
+    background: #F1CDB3;
+    border-radius: 100px;
+    padding: 15px 45px;
+    border: none;
+}
+.get:hover {
+    background: #FDDCC4;
+    cursor: pointer;
+}
+/* KeyFrames */
+@keyframes move-right {
+    from {left: -990px;}
+    to {left: -1980px;}
+}
+
+.transition-right {
+    animation-name: move-right;
+    animation-duration: 3s;
+}
+
+@keyframes move-left {
+    from {left: -990px;}
+    to {left: 0px;}
+}
+
+.transition-left {
+    animation-name: move-left;
+    animation-duration: 3s;
+}
+/* Help */
+.Help {
+    background: white;
+    padding-top: 80px;
+    padding-bottom: 100px;
+}
+.Help-intro {
+    font-size: 35px;
+    color: #545454;
+    text-align: center;
+    margin-bottom: 5px;
+}
+.Help-list {
+}
+.list {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 55px;
+}
+.list-element {
+    text-align: center;
+}
+.element-icon {
+    display: flex;
+    margin: 0 auto;
+}
+.element {
+    font-size: 20px;
+    color: #545454;
+    letter-spacing: 0.06em;
+    margin-top: 30px;
+}
+/* In-addition */
+.In-addition {
+    background: #F6F6F6;
+    padding-top: 80px;
+    padding-bottom: 100px;
+}
+.In-addition-wrapper {
+    display: flex;
+    justify-content: center;
+}
+.donation-offer {
+    width: 380px;
+    margin-left: 30px;
+}
+.donation-intro {
+    font-size: 35px;
+    color: #545454;
+    margin-bottom: 20px;
+}
+.donation-title {
+    font-size: 15px;
+    color: #545454;
+    margin-bottom: 20px;
+}
+.card-info {
+    width: 350px;
+    justify-content: space-around;
+    display: flex;
+    background: #F1CDB3;
+    border-radius: 9px;
+    padding: 10px 5px;
+    margin-bottom: 20px;
+}
+.card-number {
+    font-size: 20px;
+    color: #545454;
+}
+.donation-description {
+    font-size: 12px;
+    color: #B2B2B2;
+    font-style: italic;
+}
+/* footer */
+.footer {
+    background: url(/docs/assets/images/noise_transparent2.png), radial-gradient(110.67% 538.64% at 5.73% 50%, #513D2F 0%, #1A1A1C 100%) #211F20;
+    padding-top: 40px;
+}
+.footer-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.contacts {
+    width: 300px;
+}
+.contacts-title {
+    font-size: 35px;
+    color: #FFFFFF;
+}
+.contact-wrapper {
+    display: flex;
+    margin-top: 40px;
+    align-items: center;
+}
+.contact-link {
+    font-size: 20px;
+    color: #F1CDB3;
+    margin-left: 20px;
+}
