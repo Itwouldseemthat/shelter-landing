@@ -13,7 +13,7 @@ a {
     text-decoration: none;
 }
 .wrapper {
-    background: url(/docs/assets/images/noise_transparent2.png), radial-gradient(100% 215.42% at 0% 0%, #5B483A 0%, #262425 100%) #211F20;
+    background: url(./docs/assets/images/noise_transparent2.png), radial-gradient(100% 215.42% at 0% 0%, #5B483A 0%, #262425 100%) #211F20;
 }
 .header {
     padding-top: 60px;
@@ -134,12 +134,12 @@ a {
     border: 2px solid #F1CDB3;
     border-radius: 100px;
     padding: 24px 24px;
-    background-image: url(/docs/assets/icons/Arrow.png);
+    background-image: url(./docs/assets/icons/Arrow.png);
     background-repeat: no-repeat;
     background-position: center;
 }
 .right {
-    background-image: url(/docs/assets/icons/ArrowLeft.png);
+    background-image: url(./docs/assets/icons/ArrowLeft.png);
 }
 .scroll:hover {
     border: 2px solid #FDDCC4;
@@ -315,7 +315,7 @@ a {
 }
 /* footer */
 .footer {
-    background: url(/docs/assets/images/noise_transparent2.png), radial-gradient(110.67% 538.64% at 5.73% 50%, #513D2F 0%, #1A1A1C 100%) #211F20;
+    background: url(./docs/assets/images/noise_transparent2.png), radial-gradient(110.67% 538.64% at 5.73% 50%, #513D2F 0%, #1A1A1C 100%) #211F20;
     padding-top: 40px;
 }
 .footer-wrapper {
